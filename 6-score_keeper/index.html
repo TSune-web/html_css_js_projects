@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper Project</title>
+</head>
+<body>
+    <section class="card-body">
+        <h1>Play Table Soccer!</h1>
+        <div class="img" id="img">
+            <img src="images/table_soccer.jpg" alt="table soccer" />
+        </div>
+
+        <div class="title" id="title">Table Soccer Score Keeper</div>
+
+        <!-- ========== Scoring Section ============ -->
+        <section class="score" id="score">
+            <h2><span class="player1" id="p1Score">0</span> to <span class="player2" id="p2Score">0</span></h2>
+            <p class="explain">Use the buttons below to keep score.</p>
+            <p class="playing-select">Playing To: </p>
+            <select name="playTimes" id="playTimes" class="playerTimes">
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="9">9</option>
+                <option value="11">11</option>
+            </select>
+        </section>
+
+
+        <!-- ========== Button Section ============ -->
+        <section class="count" id="count">
+            <button class="btn one-btn" id="p1Btn">+ 1 Player One</button>
+            <button class="btn two-btn" id="p2Btn">+ 1 Player Two</button>
+            <button class="btn reset" id="reset">Reset</button>
+        </section>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

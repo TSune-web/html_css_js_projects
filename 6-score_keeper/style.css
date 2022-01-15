@@ -1,0 +1,129 @@
+/* =================
+    Global Setting
+================== */
+body {
+    box-sizing: border-box;
+    background-color: #3b3030;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card-body {
+    width: 80%;
+    background-color: rgb(185, 185, 185);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    line-height: 2.5em;
+}
+
+img {
+    width: 100%;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    border-radius: 7px;
+}
+
+
+/* =================
+    Title Section
+================== */
+.title {
+    border-bottom: 1px solid grey;
+}
+
+
+/* =================
+    Scoring Section
+================== */
+section.score {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+section.score > h2 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.explain {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+}
+
+.playing-select {
+    display: inline-block;
+    font-weight: 700;
+}
+
+select.playerTimes {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.winner {
+    color: forestGreen;
+}
+
+.loser {
+    color: salmon;
+}
+
+/* =================
+    Button Section
+================== */
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 7px 18px;
+    border: none;
+    color: #f1f1f1;
+}
+
+.one-btn {
+    width: 33%;
+    background-color: rgb(15, 131, 40);
+    border-radius: 7px 0 0 7px;
+}
+.one-btn:hover {
+    background-color: rgb(10, 88, 27);
+}
+.one-btn:disabled {
+    background-color: rgba(15, 131, 40, 0.5);
+}
+
+.two-btn {
+    width: 34%;
+    background-color: rgb(47, 120, 255);
+    align-self: stretch;
+}
+.two-btn:hover {
+    background-color: rgb(32, 83, 179);
+}
+.two-btn:disabled {
+    background-color: rgba(47, 120, 255, 0.5);
+}
+
+.reset {
+    width: 33%;
+    background-color: red;
+    align-self: stretch;
+    border-radius: 0 7px 7px 0;
+}
+.reset:hover {
+    background-color: rgb(201, 0, 0);
+}
+

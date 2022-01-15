@@ -1,0 +1,29 @@
+JS - Repeating Stuff w/ Loops
+
+Project - Todo List
+
+    1. ask entries from prompt
+    2. 4 functions:
+            1) "new" - to add a Todo
+            2) "list" - List All Todos
+            3) "delete" - Remove Specific Todo
+            4) "quit" - Quit the app
+
+
+Process/ stages to create the app:
+    1.set the prompt to start
+    2.set an empty array to store inputs
+    3.create the frame of the game (while loop)
+    4.decide the msg when finished
+
+    (inside the loop)
+    5. check if input is 'list' or 2,
+        iterate over the list to print all items
+        (can be achieved by forEach or for loop)
+    6. check if input is 'new' or 1,
+        get input and insert the item to the array
+    7. check if input is 'delete' or 3,
+        delete specified index of number & log that item
+    8. check if input is 'quit' or 4,
+        quit the app
+

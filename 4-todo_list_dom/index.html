@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Project</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 1em;
+        }
+
+        ul li {
+            width: 70%;
+            padding: 10px;
+            margin-top: 3px;
+            list-style: none;
+            text-align: center;
+            border: 3px solid lightgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form action="/form_submitted" id="todoForm">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" placeholder="Username">
+        <label for="todoItem">Todo Item: </label>
+        <input type="text" name="todoItem" id="todoItem" placeholder="Todo Item">
+        <button>Submit</button>
+    </form>
+    
+
+    <h2>Todo Items: </h2>
+    <ul id="todos"></ul>
+
+    <script src="todos.js"></script>
+</body>
+</html>

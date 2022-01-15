@@ -1,0 +1,12 @@
+Pricing Panel Project
+(based on Traverse Williams's work)
+
+1.CSS Reset (ref: CSS Tools: Reset CSS - website)
+    - normalise css to display contents
+        across different browsers
+
+2.Start the default setting
+    - Mobile screen
+
+3.Add Media Queries after default styling settings
+    - target at laptop screen
