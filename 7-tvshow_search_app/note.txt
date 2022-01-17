@@ -1,0 +1,21 @@
+Mainly to practise Axios
+
+1.Write the form settings
+    -> addEventListener => submit event
+    -> e.preventDefault()
+    -> test if it works as expected
+
+2.Extract values from the form
+3.Create a query string oject 
+    -> which is a value of the property params
+4.Use axios to connect w/ the url with a query string oject
+    -> use await
+
+5.create a function to display images
+    -> loop over an array of data
+    -> check if the targetted data is available
+        -> if not, do nothing
+    -> create a new element
+    -> fetch that data from the form
+    -> append the data to HTML tag/ body element
+    
