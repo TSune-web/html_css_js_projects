@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 133, 133, 0.603), rgb(255, 230, 210), rgba(255, 133, 133, 0.603));
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.msg {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#plus {
+    background-color: rgba(25, 86, 255, 0.753);
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+#plus:hover {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+    /* width: 115px;
+    height: 40px; */
+}
+
+#minus {
+    background-color: rgba(25, 255, 82, 0.753);
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+#minus:hover {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+    /* width: 115px;
+    height: 40px; */
+}
+
+#reset {
+    background-color: rgba(255, 25, 25, 0.753);
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+#reset:hover {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+    /* width: 115px;
+    height: 40px; */
+}
+
+.save {
+    background-image: linear-gradient(to right, red, blue, red);
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.save:hover {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+    /* width: 115px;
+    height: 40px; */
+}
+
+#result {
+    font-size: 40px;
+    color: gray;
+}
+
+#cresult {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 30px;
+}
